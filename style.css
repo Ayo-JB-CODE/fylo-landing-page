@@ -1,0 +1,381 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap'); */
+
+/* The whole html styling */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+/* Navbar styling */
+.nav{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 20px;
+}
+.nav-right{
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: hsl(224, 93%, 58%);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+}
+/* Section 1 styling */
+.hero-page{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-top: 75px;
+    margin-bottom: 170px;
+}
+.hero-left{
+    display: flex;
+    flex-direction: column;
+}
+.writeup h1{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    line-height: 50px;
+    margin-bottom: 15px;
+    margin-top: 60px;
+    color: hsl(243, 87%, 12%);
+}
+.hero-page p{
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(238, 22%, 44%);
+}
+.input-field{
+    width: 300px;
+    height: 39px;
+    margin-right: 7px;
+    padding-left: 15px;
+}
+/* .input-field:focus{
+    border: 1px solid red;
+} */
+.btn{
+    width: 200px;
+    height: 43px;
+    color: white;
+    background-color:rgb(46, 46, 226);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+/* Section 2 styling */
+.section-2{
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: space-between;
+    padding-top: 110px;
+}
+.section-2-left{
+    padding: 0 80px 0 80px;
+}
+.writeup-2{
+    margin-bottom: 60px;
+    color: hsl(238, 22%, 44%);
+}
+.writeup-2 h1{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    line-height: 50px;
+    margin-bottom: 30px;
+    color: hsl(243, 87%, 12%);
+}
+.section-2 a{
+    margin-right: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(170, 45%, 43%);
+}
+.sec-2-link{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+hr{
+    width: 165px;
+    color: hsl(170, 45%, 43%);
+    margin-top: 5px;
+    border: 0.1px solid;
+}
+.testimony{
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 30px;
+    padding: 25px;
+    color: hsl(238, 22%, 44%);
+}
+.testimony img{
+    width: 20px;
+    margin-bottom: 12px;
+    margin-right: 10px;
+}
+.testifier{
+    display: flex;
+}
+.testifier img{
+    border-radius: 50%;
+    width: 40px;
+    margin-top: 15px;
+}
+.testifier-data{
+    padding-top: 10px;
+}
+.testifier-data .name{
+    font-weight: 700;
+    margin: 8px 0 0 0;
+    font-size: 14px;
+    color: black;
+}
+.testifier-data .title{
+    margin: 0;
+    font-size: 12px;
+    font-weight: 400;
+}
+.contact{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    padding: 130px 80px;
+    background-color: hsl(238, 22%, 44%);
+}
+.contact-text{
+    width: 50%;
+    margin-right: 200px;
+    color: white;
+}
+.contact-text h1{
+    font-size: 35px;
+    padding-bottom: 30px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+}
+.contact-text p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.contact-input{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+.contact-input-field{
+    margin-bottom: 15px;
+    width: 400px;
+    height: 53px;
+    margin-right: 7px;
+    padding: 0 15px;
+    border-radius: 3px;
+    border: none;
+}
+#contact-btn{
+    height: 60px;
+}
+footer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 40px 80px;
+    background-color: hsl(243, 87%, 12%);
+}
+.footer-logo{
+    margin-bottom: 30px;
+    filter: brightness(0) invert(1);
+}
+.footer-others{
+    display: flex;
+    justify-content: space-between;
+    line-height: 40px;
+}
+.row1 span{
+    margin-right: 25px;
+}
+.row3{
+    margin-right: 0;
+}
+.row4{
+    display: flex;
+    align-items: flex-start;
+    margin: 0 20px;
+}
+.row4 i{
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px;
+}
+.row5{
+    width: 70px;
+}
+
+/* Responsiveness - Media Quary */
+@media screen and (min-width: 375px) and (max-width:900px) {
+    .nav{
+        margin-top: 30px;
+    }
+    .nav-right{
+        width: 50%;
+        align-items: center;
+    }
+    a{
+        text-decoration: none;
+        color: hsl(224, 93%, 58%);
+        font-size: 16px;
+        font-weight: 400;
+        font-family: "Raleway", sans-serif;
+    }
+    .nav-left img{
+        width: 120px;
+    }
+    .hero-right img{
+        width: 350px;
+        margin-bottom: 40px;
+    }
+    .hero-page{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .writeup h1{
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 40px
+    }
+    .hero-page p{
+        margin-bottom: 40px;
+        line-height: 25px;
+    }
+    .input-field{
+        width: 350px;
+        margin-bottom: 20px;
+        padding-left: 30px;
+    }
+    .btn{
+        width: 385px;
+        height: 55px;
+     }
+     .section-2{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .section-2-right img{
+        width: 350px;
+        margin-bottom: 40px;
+    }
+    .section-2-left{
+        padding: 20px;
+    }
+    .writeup-2{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .writeup-2 h1{
+        font-size: 19.5px;
+        margin: 40px 0;
+        line-height: 30px;
+    }
+    .writeup-2 p{
+        text-align: left;
+        margin-block-end: 1.5em;
+    }
+    .writeup-2 hr{
+        margin: auto;
+        border: 0.1px solid;
+    }
+    .section-2 a{
+        margin-bottom: 5px;
+    }
+    .sec-2-link{
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .testimony{
+        width: 350px;
+        height: 200px;
+        margin: auto;
+        margin-bottom: 120px;
+        padding: 30px 5px 30px 40px;
+        line-height: 25px;
+        text-align: left;
+    }
+    .testifier-data .name{
+        margin-top: 16px;
+        line-height: 12px;
+    }
+    .contact{
+        height: 400px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        padding: 30px 10px;
+        text-align: center;
+    }
+    .contact-text{
+        margin-left: 175px;
+        width: 100%;
+    }
+    .contact-text h1{
+        font-size: 25px;
+        margin-top: 50px;
+    }
+    .contact-input{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    .contact-input-field{
+        margin-bottom: 15px;
+        width: 350px;
+        height: 50px;
+    }
+    #contact-btn{
+        height: 45px;
+    }
+    footer{
+        height: 700px;
+    }
+    .footer-logo{
+        margin-bottom: 20px;
+    }
+    .footer-others{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        line-height: 40px;
+        padding: 30px;
+    }
+    .row1, .row2, .row3, .row4{
+        margin-bottom: 30px;
+    }
+    .row4{
+        align-items: center;
+        margin-left: 50px;
+    }
+}
